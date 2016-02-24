@@ -1,7 +1,7 @@
 # docker-ssh
 Dockerfile and support files for sshd with Google Authenticator
 
-## Requirements:
+## Requirements
 
 The container requires a ssh configuration directory to mount under `/etc/ssh`, a user home directory to mount under `/home` and a sshd PAM configuration file to mount under `/etc/pam.d/sshd`.
 
