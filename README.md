@@ -9,6 +9,8 @@ You can extract those files/directories directly from the container after the bu
 
 The `/etc/ssh` configuration directory will contain public/private server certificates generated during the build; in `$HOME/.ssh` you must put an `authorized_keys` file with your own RSA public key(s).
 
+Since the token configuration is time-based, your system must run an `ntp` agent in order to keep the time synchronized with the device generating the codes.
+
 ## Build
 
 You are free to modify the `Dockerfile` accordingly to your environment. The items you might want to modify are the following:
